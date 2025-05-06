@@ -11,7 +11,7 @@ export const Footer = () => {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        gap="3rem"
+        gap={{ base: "1rem", md: "1rem" }}
         height="5vh"
         width="100vw"
         backgroundColor="#00bff"
