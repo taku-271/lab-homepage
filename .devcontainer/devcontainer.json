@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "homepage",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "bun",
+  "postStartCommand": "bun install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "Github.vscode-pull-request-github",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "mushan.vscode-paste-image",
+        "negokaz.zenn-editor",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}

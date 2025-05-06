@@ -1,0 +1,9 @@
+services:
+  homepage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace
+    tty: true
+    command: tail -f /dev/null
